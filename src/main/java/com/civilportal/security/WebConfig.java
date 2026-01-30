@@ -13,7 +13,7 @@ public class WebConfig implements WebMvcConfigurer {
                 .allowedOrigins(
                         "http://localhost:3000", // Next.js dev server
                         "http://localhost:8080", // Alternative frontend port
-                        "https://your-domain.com" // Production domain (update this)
+                        "https://solanoafk.com" // Production domain (update this)
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
